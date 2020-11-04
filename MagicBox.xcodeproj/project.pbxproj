@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10B6896253D97FB00D51231 /* Papyrus.ttc in Resources */ = {isa = PBXBuildFile; fileRef = E10B6895253D97FB00D51231 /* Papyrus.ttc */; };
+		E111E4612541A40E00E94407 /* KeyValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E111E4602541A40E00E94407 /* KeyValueView.swift */; };
+		E1153F76253C7D0D00EE38AC /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153F74253C7D0D00EE38AC /* Item+CoreDataClass.swift */; };
+		E1153F77253C7D0D00EE38AC /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1153F75253C7D0D00EE38AC /* Item+CoreDataProperties.swift */; };
+		E11613E6254ABCC700885231 /* MagicSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11613E5254ABCC700885231 /* MagicSectionView.swift */; };
+		E11613EE254ADC6F00885231 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11613ED254ADC6F00885231 /* DividerView.swift */; };
+		E13B3BEC253D82E9009D10E0 /* tmpCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13B3BEB253D82E9009D10E0 /* tmpCode.swift */; };
+		E13B3BF2253D8897009D10E0 /* MagicCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13B3BF0253D8897009D10E0 /* MagicCategory+CoreDataClass.swift */; };
+		E13B3BF3253D8897009D10E0 /* MagicCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13B3BF1253D8897009D10E0 /* MagicCategory+CoreDataProperties.swift */; };
+		E13B3BFF253D8A96009D10E0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13B3BFE253D8A96009D10E0 /* SettingsView.swift */; };
+		E13B3C0D253D8D03009D10E0 /* MagicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13B3C0C253D8D03009D10E0 /* MagicView.swift */; };
+		E143F1D82541515F0036A525 /* TechniqueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143F1D72541515F0036A525 /* TechniqueView.swift */; };
+		E143F1DD254151DB0036A525 /* TechniqueGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143F1DC254151DB0036A525 /* TechniqueGeneralView.swift */; };
+		E143F1EA25416C120036A525 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143F1E925416C120036A525 /* MenuModel.swift */; };
+		E143F20D254177940036A525 /* DifficultyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143F20C254177940036A525 /* DifficultyView.swift */; };
+		E14BE06D254831AC004D22F3 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14BE06C254831AC004D22F3 /* CommentsView.swift */; };
+		E14C4D6C254581A400649347 /* TechniqueStepByStepListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14C4D6B254581A400649347 /* TechniqueStepByStepListView.swift */; };
+		E14C4D74254582B200649347 /* CardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14C4D73254582B200649347 /* CardState.swift */; };
+		E14C4D7A254587B900649347 /* CardStateEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14C4D79254587B900649347 /* CardStateEditView.swift */; };
+		E14C4D8E2545B22600649347 /* StepByStepList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14C4D8D2545B22600649347 /* StepByStepList.swift */; };
+		E14FB9D3253DA930001A65C3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FB9D2253DA930001A65C3 /* ColorExtension.swift */; };
+		E14FB9DB253DAA78001A65C3 /* Zapfino.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E14FB9DA253DAA77001A65C3 /* Zapfino.ttf */; };
+		E14FB9E0253DB43F001A65C3 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FB9DF253DB43F001A65C3 /* Modifiers.swift */; };
+		E153703A25417DB60098D935 /* BackgroundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153703925417DB60098D935 /* BackgroundViews.swift */; };
+		E153704225417FAD0098D935 /* componentOverrides.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153704125417FAD0098D935 /* componentOverrides.swift */; };
+		E16C01892551C32C001FCC90 /* LinksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C01882551C32C001FCC90 /* LinksListView.swift */; };
+		E16E7EAB253DDA02006EBF59 /* CardMagicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E7EAA253DDA02006EBF59 /* CardMagicView.swift */; };
+		E16E7EB3253DDCB9006EBF59 /* MainMenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E7EB2253DDCB9006EBF59 /* MainMenuButtonView.swift */; };
+		E176C61E253DF2F00053360E /* CardMagicSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176C61D253DF2F00053360E /* CardMagicSections.swift */; };
+		E176C629253EF8130053360E /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176C628253EF8130053360E /* PracticeView.swift */; };
+		E176C634253F194B0053360E /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176C633253F194B0053360E /* LibraryView.swift */; };
+		E19678D4254C514E007CE687 /* CommentsCrudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19678D3254C514E007CE687 /* CommentsCrudView.swift */; };
+		E1B013F0254C8DDB007877F2 /* CommentsAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B013EF254C8DDB007877F2 /* CommentsAddView.swift */; };
 		E1B3B58B253C75E300BD38DA /* MagicBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3B58A253C75E300BD38DA /* MagicBoxApp.swift */; };
 		E1B3B58D253C75E300BD38DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3B58C253C75E300BD38DA /* ContentView.swift */; };
 		E1B3B58F253C75E500BD38DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B3B58E253C75E500BD38DA /* Assets.xcassets */; };
@@ -15,6 +48,21 @@
 		E1B3B597253C75E500BD38DA /* MagicBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1B3B595253C75E500BD38DA /* MagicBox.xcdatamodeld */; };
 		E1B3B5A2253C75E600BD38DA /* MagicBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3B5A1253C75E600BD38DA /* MagicBoxTests.swift */; };
 		E1B3B5AD253C75E600BD38DA /* MagicBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3B5AC253C75E600BD38DA /* MagicBoxUITests.swift */; };
+		E1D06A04254ED54100A35FDB /* CustomComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D06A03254ED54100A35FDB /* CustomComponents.swift */; };
+		E1D06A13254F138E00A35FDB /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D06A12254F138E00A35FDB /* StepsView.swift */; };
+		E1D06A1B254F139E00A35FDB /* StepsCrudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D06A1A254F139E00A35FDB /* StepsCrudView.swift */; };
+		E1D06A20254F13AE00A35FDB /* StepsAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D06A1F254F13AE00A35FDB /* StepsAddView.swift */; };
+		E1D06A2A255020BD00A35FDB /* StepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D06A29255020BD00A35FDB /* StepModel.swift */; };
+		E1D06A2F2550428100A35FDB /* UsefulStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D06A2E2550428100A35FDB /* UsefulStuff.swift */; };
+		E1D06A3825514A3E00A35FDB /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D06A3725514A3E00A35FDB /* LinksView.swift */; };
+		E1E7E91B2544B855009F4825 /* SlidingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E7E91A2544B855009F4825 /* SlidingTabView.swift */; };
+		E1E7E92F254561C3009F4825 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E7E92E254561C3009F4825 /* RatingsView.swift */; };
+		E1E7E934254568F3009F4825 /* DifficultyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E7E933254568F3009F4825 /* DifficultyModel.swift */; };
+		E1FDA6132540107A008D3EAD /* Apple Chancery.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1FDA61225401079008D3EAD /* Apple Chancery.ttf */; };
+		E1FDA618254011CE008D3EAD /* Luminari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1FDA617254011CE008D3EAD /* Luminari.ttf */; };
+		E1FDA61D25401271008D3EAD /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = E1FDA61C25401271008D3EAD /* Savoye LET.ttc */; };
+		E1FDA6292540134B008D3EAD /* SignPainter.ttc in Resources */ = {isa = PBXBuildFile; fileRef = E1FDA6282540134B008D3EAD /* SignPainter.ttc */; };
+		E1FDA67625408673008D3EAD /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDA67525408673008D3EAD /* LaunchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +83,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E10B6895253D97FB00D51231 /* Papyrus.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Papyrus.ttc; sourceTree = "<group>"; };
+		E111E4602541A40E00E94407 /* KeyValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueView.swift; sourceTree = "<group>"; };
+		E1153F74253C7D0D00EE38AC /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E1153F75253C7D0D00EE38AC /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E11613E5254ABCC700885231 /* MagicSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSectionView.swift; sourceTree = "<group>"; };
+		E11613ED254ADC6F00885231 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		E13B3BEB253D82E9009D10E0 /* tmpCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tmpCode.swift; sourceTree = "<group>"; };
+		E13B3BF0253D8897009D10E0 /* MagicCategory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MagicCategory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E13B3BF1253D8897009D10E0 /* MagicCategory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MagicCategory+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E13B3BFE253D8A96009D10E0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E13B3C0C253D8D03009D10E0 /* MagicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicView.swift; sourceTree = "<group>"; };
+		E143F1D72541515F0036A525 /* TechniqueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniqueView.swift; sourceTree = "<group>"; };
+		E143F1DC254151DB0036A525 /* TechniqueGeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniqueGeneralView.swift; sourceTree = "<group>"; };
+		E143F1E925416C120036A525 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		E143F20C254177940036A525 /* DifficultyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyView.swift; sourceTree = "<group>"; };
+		E14BE06C254831AC004D22F3 /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		E14C4D6B254581A400649347 /* TechniqueStepByStepListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniqueStepByStepListView.swift; sourceTree = "<group>"; };
+		E14C4D73254582B200649347 /* CardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardState.swift; sourceTree = "<group>"; };
+		E14C4D79254587B900649347 /* CardStateEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStateEditView.swift; sourceTree = "<group>"; };
+		E14C4D8D2545B22600649347 /* StepByStepList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepByStepList.swift; sourceTree = "<group>"; };
+		E14FB9D2253DA930001A65C3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E14FB9DA253DAA77001A65C3 /* Zapfino.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zapfino.ttf; sourceTree = "<group>"; };
+		E14FB9DF253DB43F001A65C3 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		E153703925417DB60098D935 /* BackgroundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViews.swift; sourceTree = "<group>"; };
+		E153704125417FAD0098D935 /* componentOverrides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = componentOverrides.swift; sourceTree = "<group>"; };
+		E16C01882551C32C001FCC90 /* LinksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksListView.swift; sourceTree = "<group>"; };
+		E16E7EAA253DDA02006EBF59 /* CardMagicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMagicView.swift; sourceTree = "<group>"; };
+		E16E7EB2253DDCB9006EBF59 /* MainMenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuButtonView.swift; sourceTree = "<group>"; };
+		E176C61D253DF2F00053360E /* CardMagicSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMagicSections.swift; sourceTree = "<group>"; };
+		E176C628253EF8130053360E /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		E176C633253F194B0053360E /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		E19678D3254C514E007CE687 /* CommentsCrudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCrudView.swift; sourceTree = "<group>"; };
+		E1B013EF254C8DDB007877F2 /* CommentsAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsAddView.swift; sourceTree = "<group>"; };
 		E1B3B587253C75E300BD38DA /* MagicBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B3B58A253C75E300BD38DA /* MagicBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBoxApp.swift; sourceTree = "<group>"; };
 		E1B3B58C253C75E300BD38DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +130,21 @@
 		E1B3B5A8253C75E600BD38DA /* MagicBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B3B5AC253C75E600BD38DA /* MagicBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBoxUITests.swift; sourceTree = "<group>"; };
 		E1B3B5AE253C75E600BD38DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D06A03254ED54100A35FDB /* CustomComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponents.swift; sourceTree = "<group>"; };
+		E1D06A12254F138E00A35FDB /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		E1D06A1A254F139E00A35FDB /* StepsCrudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsCrudView.swift; sourceTree = "<group>"; };
+		E1D06A1F254F13AE00A35FDB /* StepsAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsAddView.swift; sourceTree = "<group>"; };
+		E1D06A29255020BD00A35FDB /* StepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepModel.swift; sourceTree = "<group>"; };
+		E1D06A2E2550428100A35FDB /* UsefulStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulStuff.swift; sourceTree = "<group>"; };
+		E1D06A3725514A3E00A35FDB /* LinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
+		E1E7E91A2544B855009F4825 /* SlidingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTabView.swift; sourceTree = "<group>"; };
+		E1E7E92E254561C3009F4825 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		E1E7E933254568F3009F4825 /* DifficultyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyModel.swift; sourceTree = "<group>"; };
+		E1FDA61225401079008D3EAD /* Apple Chancery.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Chancery.ttf"; sourceTree = "<group>"; };
+		E1FDA617254011CE008D3EAD /* Luminari.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Luminari.ttf; sourceTree = "<group>"; };
+		E1FDA61C25401271008D3EAD /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
+		E1FDA6282540134B008D3EAD /* SignPainter.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = SignPainter.ttc; sourceTree = "<group>"; };
+		E1FDA67525408673008D3EAD /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +172,154 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1153F73253C7CEF00EE38AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E143F1E825416BB30036A525 /* Temporary models */,
+				E13B3BF0253D8897009D10E0 /* MagicCategory+CoreDataClass.swift */,
+				E13B3BF1253D8897009D10E0 /* MagicCategory+CoreDataProperties.swift */,
+				E1B3B595253C75E500BD38DA /* MagicBox.xcdatamodeld */,
+				E1153F74253C7D0D00EE38AC /* Item+CoreDataClass.swift */,
+				E1153F75253C7D0D00EE38AC /* Item+CoreDataProperties.swift */,
+				E1E7E933254568F3009F4825 /* DifficultyModel.swift */,
+				E14C4D73254582B200649347 /* CardState.swift */,
+				E14C4D8D2545B22600649347 /* StepByStepList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E13B3BFD253D8A6D009D10E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E143F1E225416AF60036A525 /* Special Views */,
+				E143F1E125416AD70036A525 /* Main */,
+				E1FDA67525408673008D3EAD /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E143F1E125416AD70036A525 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E1B3B58C253C75E300BD38DA /* ContentView.swift */,
+				E13B3C0C253D8D03009D10E0 /* MagicView.swift */,
+				E16E7EB2253DDCB9006EBF59 /* MainMenuButtonView.swift */,
+				E143F1E325416B160036A525 /* Cardmagic views */,
+				E143F1E625416B750036A525 /* Library Views */,
+				E143F1E525416B660036A525 /* Practice views */,
+				E143F1E725416B840036A525 /* Settings Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E143F1E225416AF60036A525 /* Special Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1D06A4A25514AFB00A35FDB /* WrappingViews */,
+				E1D06A36255149EF00A35FDB /* LinksView */,
+				E1D06A11254F136F00A35FDB /* Steps */,
+				E19678D2254C5114007CE687 /* Comments */,
+				E143F20C254177940036A525 /* DifficultyView.swift */,
+				E111E4602541A40E00E94407 /* KeyValueView.swift */,
+				E1E7E91A2544B855009F4825 /* SlidingTabView.swift */,
+				E1E7E92E254561C3009F4825 /* RatingsView.swift */,
+				E11613ED254ADC6F00885231 /* DividerView.swift */,
+			);
+			path = "Special Views";
+			sourceTree = "<group>";
+		};
+		E143F1E325416B160036A525 /* Cardmagic views */ = {
+			isa = PBXGroup;
+			children = (
+				E16E7EAA253DDA02006EBF59 /* CardMagicView.swift */,
+				E176C61D253DF2F00053360E /* CardMagicSections.swift */,
+				E143F1E425416B2A0036A525 /* Technique Views */,
+			);
+			path = "Cardmagic views";
+			sourceTree = "<group>";
+		};
+		E143F1E425416B2A0036A525 /* Technique Views */ = {
+			isa = PBXGroup;
+			children = (
+				E143F1D72541515F0036A525 /* TechniqueView.swift */,
+				E14BE04A2546A28E004D22F3 /* General */,
+			);
+			path = "Technique Views";
+			sourceTree = "<group>";
+		};
+		E143F1E525416B660036A525 /* Practice views */ = {
+			isa = PBXGroup;
+			children = (
+				E176C628253EF8130053360E /* PracticeView.swift */,
+			);
+			path = "Practice views";
+			sourceTree = "<group>";
+		};
+		E143F1E625416B750036A525 /* Library Views */ = {
+			isa = PBXGroup;
+			children = (
+				E176C633253F194B0053360E /* LibraryView.swift */,
+			);
+			path = "Library Views";
+			sourceTree = "<group>";
+		};
+		E143F1E725416B840036A525 /* Settings Views */ = {
+			isa = PBXGroup;
+			children = (
+				E13B3BFE253D8A96009D10E0 /* SettingsView.swift */,
+			);
+			path = "Settings Views";
+			sourceTree = "<group>";
+		};
+		E143F1E825416BB30036A525 /* Temporary models */ = {
+			isa = PBXGroup;
+			children = (
+				E143F1E925416C120036A525 /* MenuModel.swift */,
+				E1D06A29255020BD00A35FDB /* StepModel.swift */,
+			);
+			path = "Temporary models";
+			sourceTree = "<group>";
+		};
+		E14BE04A2546A28E004D22F3 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E14C4D6B254581A400649347 /* TechniqueStepByStepListView.swift */,
+				E143F1DC254151DB0036A525 /* TechniqueGeneralView.swift */,
+				E14C4D78254587A400649347 /* CardState */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		E14C4D78254587A400649347 /* CardState */ = {
+			isa = PBXGroup;
+			children = (
+				E14C4D79254587B900649347 /* CardStateEditView.swift */,
+			);
+			path = CardState;
+			sourceTree = "<group>";
+		};
+		E14FB9D1253DA91B001A65C3 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E14FB9D2253DA930001A65C3 /* ColorExtension.swift */,
+				E14FB9DF253DB43F001A65C3 /* Modifiers.swift */,
+				E153704125417FAD0098D935 /* componentOverrides.swift */,
+				E1D06A03254ED54100A35FDB /* CustomComponents.swift */,
+				E1D06A2E2550428100A35FDB /* UsefulStuff.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		E19678D2254C5114007CE687 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				E14BE06C254831AC004D22F3 /* CommentsView.swift */,
+				E19678D3254C514E007CE687 /* CommentsCrudView.swift */,
+				E1B013EF254C8DDB007877F2 /* CommentsAddView.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
 		E1B3B57E253C75E300BD38DA = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +343,16 @@
 		E1B3B589253C75E300BD38DA /* MagicBox */ = {
 			isa = PBXGroup;
 			children = (
+				E1FDA621254012A7008D3EAD /* Resources */,
+				E14FB9D1253DA91B001A65C3 /* extensions */,
+				E13B3BFD253D8A6D009D10E0 /* Views */,
+				E1153F73253C7CEF00EE38AC /* Model */,
 				E1B3B58A253C75E300BD38DA /* MagicBoxApp.swift */,
-				E1B3B58C253C75E300BD38DA /* ContentView.swift */,
 				E1B3B58E253C75E500BD38DA /* Assets.xcassets */,
 				E1B3B593253C75E500BD38DA /* Persistence.swift */,
 				E1B3B598253C75E500BD38DA /* Info.plist */,
-				E1B3B595253C75E500BD38DA /* MagicBox.xcdatamodeld */,
 				E1B3B590253C75E500BD38DA /* Preview Content */,
+				E13B3BEB253D82E9009D10E0 /* tmpCode.swift */,
 			);
 			path = MagicBox;
 			sourceTree = "<group>";
@@ -134,6 +381,47 @@
 				E1B3B5AE253C75E600BD38DA /* Info.plist */,
 			);
 			path = MagicBoxUITests;
+			sourceTree = "<group>";
+		};
+		E1D06A11254F136F00A35FDB /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				E1D06A12254F138E00A35FDB /* StepsView.swift */,
+				E1D06A1A254F139E00A35FDB /* StepsCrudView.swift */,
+				E1D06A1F254F13AE00A35FDB /* StepsAddView.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		E1D06A36255149EF00A35FDB /* LinksView */ = {
+			isa = PBXGroup;
+			children = (
+				E1D06A3725514A3E00A35FDB /* LinksView.swift */,
+				E16C01882551C32C001FCC90 /* LinksListView.swift */,
+			);
+			path = LinksView;
+			sourceTree = "<group>";
+		};
+		E1D06A4A25514AFB00A35FDB /* WrappingViews */ = {
+			isa = PBXGroup;
+			children = (
+				E11613E5254ABCC700885231 /* MagicSectionView.swift */,
+				E153703925417DB60098D935 /* BackgroundViews.swift */,
+			);
+			path = WrappingViews;
+			sourceTree = "<group>";
+		};
+		E1FDA621254012A7008D3EAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E10B6895253D97FB00D51231 /* Papyrus.ttc */,
+				E14FB9DA253DAA77001A65C3 /* Zapfino.ttf */,
+				E1FDA61C25401271008D3EAD /* Savoye LET.ttc */,
+				E1FDA617254011CE008D3EAD /* Luminari.ttf */,
+				E1FDA61225401079008D3EAD /* Apple Chancery.ttf */,
+				E1FDA6282540134B008D3EAD /* SignPainter.ttc */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +527,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10B6896253D97FB00D51231 /* Papyrus.ttc in Resources */,
 				E1B3B592253C75E500BD38DA /* Preview Assets.xcassets in Resources */,
+				E14FB9DB253DAA78001A65C3 /* Zapfino.ttf in Resources */,
+				E1FDA61D25401271008D3EAD /* Savoye LET.ttc in Resources */,
+				E1FDA6292540134B008D3EAD /* SignPainter.ttc in Resources */,
+				E1FDA6132540107A008D3EAD /* Apple Chancery.ttf in Resources */,
 				E1B3B58F253C75E500BD38DA /* Assets.xcassets in Resources */,
+				E1FDA618254011CE008D3EAD /* Luminari.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +559,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1153F77253C7D0D00EE38AC /* Item+CoreDataProperties.swift in Sources */,
+				E1153F76253C7D0D00EE38AC /* Item+CoreDataClass.swift in Sources */,
+				E14C4D6C254581A400649347 /* TechniqueStepByStepListView.swift in Sources */,
+				E1E7E91B2544B855009F4825 /* SlidingTabView.swift in Sources */,
 				E1B3B594253C75E500BD38DA /* Persistence.swift in Sources */,
+				E143F20D254177940036A525 /* DifficultyView.swift in Sources */,
+				E1E7E92F254561C3009F4825 /* RatingsView.swift in Sources */,
+				E111E4612541A40E00E94407 /* KeyValueView.swift in Sources */,
+				E176C629253EF8130053360E /* PracticeView.swift in Sources */,
+				E176C634253F194B0053360E /* LibraryView.swift in Sources */,
+				E14C4D74254582B200649347 /* CardState.swift in Sources */,
+				E153703A25417DB60098D935 /* BackgroundViews.swift in Sources */,
+				E1D06A1B254F139E00A35FDB /* StepsCrudView.swift in Sources */,
+				E14FB9D3253DA930001A65C3 /* ColorExtension.swift in Sources */,
+				E153704225417FAD0098D935 /* componentOverrides.swift in Sources */,
 				E1B3B58D253C75E300BD38DA /* ContentView.swift in Sources */,
+				E19678D4254C514E007CE687 /* CommentsCrudView.swift in Sources */,
+				E1FDA67625408673008D3EAD /* LaunchView.swift in Sources */,
+				E176C61E253DF2F00053360E /* CardMagicSections.swift in Sources */,
 				E1B3B58B253C75E300BD38DA /* MagicBoxApp.swift in Sources */,
+				E16E7EB3253DDCB9006EBF59 /* MainMenuButtonView.swift in Sources */,
+				E13B3C0D253D8D03009D10E0 /* MagicView.swift in Sources */,
+				E1D06A3825514A3E00A35FDB /* LinksView.swift in Sources */,
+				E13B3BFF253D8A96009D10E0 /* SettingsView.swift in Sources */,
+				E143F1DD254151DB0036A525 /* TechniqueGeneralView.swift in Sources */,
+				E13B3BF2253D8897009D10E0 /* MagicCategory+CoreDataClass.swift in Sources */,
 				E1B3B597253C75E500BD38DA /* MagicBox.xcdatamodeld in Sources */,
+				E1D06A2F2550428100A35FDB /* UsefulStuff.swift in Sources */,
+				E13B3BEC253D82E9009D10E0 /* tmpCode.swift in Sources */,
+				E11613E6254ABCC700885231 /* MagicSectionView.swift in Sources */,
+				E1D06A20254F13AE00A35FDB /* StepsAddView.swift in Sources */,
+				E13B3BF3253D8897009D10E0 /* MagicCategory+CoreDataProperties.swift in Sources */,
+				E1D06A2A255020BD00A35FDB /* StepModel.swift in Sources */,
+				E1D06A13254F138E00A35FDB /* StepsView.swift in Sources */,
+				E14BE06D254831AC004D22F3 /* CommentsView.swift in Sources */,
+				E11613EE254ADC6F00885231 /* DividerView.swift in Sources */,
+				E16C01892551C32C001FCC90 /* LinksListView.swift in Sources */,
+				E1B013F0254C8DDB007877F2 /* CommentsAddView.swift in Sources */,
+				E1E7E934254568F3009F4825 /* DifficultyModel.swift in Sources */,
+				E143F1EA25416C120036A525 /* MenuModel.swift in Sources */,
+				E14C4D8E2545B22600649347 /* StepByStepList.swift in Sources */,
+				E1D06A04254ED54100A35FDB /* CustomComponents.swift in Sources */,
+				E16E7EAB253DDA02006EBF59 /* CardMagicView.swift in Sources */,
+				E14FB9E0253DB43F001A65C3 /* Modifiers.swift in Sources */,
+				E14C4D7A254587B900649347 /* CardStateEditView.swift in Sources */,
+				E143F1D82541515F0036A525 /* TechniqueView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
